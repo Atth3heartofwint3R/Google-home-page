@@ -7,15 +7,15 @@ body{
   #middleFlex{
     display: flex;
     flex: 100%;
-    flex-direction:column;
+    flex-wrap: wrap;
     position: absolute;
     width: 427px;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     top: 25%;
     left: 37%;
-
+    align-content: space-between;
+    height: 165px;
   }
  #search{
    
