@@ -3,8 +3,44 @@ body{
     background-color: white;
     
   }
-  #middle_elements{
+ 
+  #middleFlex{
+    display: flex;
+    flex: 100%;
+    flex-direction:column;
+    position: absolute;
+    width: 427px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    left: 37%;
+
+  }
+ #search{
+   
+   width: 100%;
+ }
+
+
+  /*#search-bar{
+    width: 427px;
+    display: flex;
+    flex: 100%;
+    flex-direction:column; 
     position : absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 28%;
+    
+    
+  }
+  #logo{
+    width: 215px;
+    flex: 100%;
+    position : absolute;
+    top: 25%;
+    left: 37%;
+  }*/
+  input{
+    width: 100%;
   }
