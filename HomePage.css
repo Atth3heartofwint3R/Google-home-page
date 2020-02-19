@@ -23,24 +23,7 @@ body{
  }
 
 
-  /*#search-bar{
-    width: 427px;
-    display: flex;
-    flex: 100%;
-    flex-direction:column; 
-    position : absolute;
-    top: 40%;
-    left: 28%;
-    
-    
-  }
-  #logo{
-    width: 215px;
-    flex: 100%;
-    position : absolute;
-    top: 25%;
-    left: 37%;
-  }*/
+
   input{
     width: 100%;
   }
