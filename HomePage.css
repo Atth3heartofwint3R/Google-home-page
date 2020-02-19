@@ -1,12 +1,12 @@
 
 body{
     background-color: white;
-    
+    height:100%;
+    margin:0;
   }
  
   #middleFlex{
     display: flex;
-    flex: 100%;
     flex-wrap: wrap;
     position: absolute;
     width: 427px;
@@ -21,9 +21,31 @@ body{
    
    width: 100%;
  }
-
-
-
   input{
     width: 100%;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    height : 30px;
+    justify-content: space-around;
+    margin-top: 13px ;
+    
+  }
+  #spacer{
+    width : 600px;
+    background-color: transparent;
+  }
+  .nav-items{
+    width: 50px ;
+    height: 30px;
+    
+  }
+  #square{
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    background-color: transparent;
   }
