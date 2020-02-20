@@ -27,7 +27,7 @@ body{
   #navbar{
     display: flex;
     flex-direction: row;
-    height : 30px;
+    height : 50px;
     justify-content: space-between;
     margin-top: 13px ;
     
@@ -41,13 +41,17 @@ body{
     height: 30px;
     font-size: 13px;
     font-family: Arial, sans-serif;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
     
   }
   #square{
     background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
     background-position: -132px -38px;
-    background-position-x: -126px;
-    background-position-y: -44px;
+    background-position-x: -119px;
+    background-position-y: -37px;
     background-size: 528px 68px;
     background-color: transparent;
     height: 25px ;
@@ -67,4 +71,12 @@ body{
    width:400px;
    justify-content: flex-end;
    padding: 15px 25px 0px 0px; 
+  }
+  #sign-in-button{
+    background-color: #4584ef;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
   }
