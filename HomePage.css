@@ -20,10 +20,26 @@ body{
  #search{
    
    width: 100%;
+   z-index: 1;
+   
+   
  }
   input{
     width: 100%;
+    border: transparent;
   }
+  #search-contour{
+   
+    height: 45px;
+    width: 521px;
+    top:39%;
+    left:33%;
+    position:absolute;
+    border: solid 1px #e7e8eb;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+  
   #navbar{
     display: flex;
     flex-direction: row;
