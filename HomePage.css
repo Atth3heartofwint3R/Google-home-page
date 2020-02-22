@@ -19,24 +19,32 @@ body{
   }
  #search{
    
-   width: 100%;
+   width: 427px;
+   position:absolute;
    z-index: 1;
+   top:69%;
+  
    
    
  }
   input{
     width: 100%;
     border: transparent;
+    position: absolute;
+    top:50%;
+    
+   
   }
   #search-contour{
    
     height: 45px;
     width: 521px;
-    top:39%;
-    left:33%;
+    top:-13%;
+    left:-13%;
     position:absolute;
     border: solid 1px #e7e8eb;
     border-radius: 25px 25px 25px 25px;
+    z-index: -1;
   }
 
   
