@@ -46,7 +46,34 @@ body{
     border-radius: 25px 25px 25px 25px;
     z-index: -1;
   }
-
+  #button-container{
+    display: flex;
+    position: absolute;
+    width: 571px;
+    justify-content: center;
+    align-items: center;
+    top: 106%;
+    left: -16%;
+    height: 58px;
+   
+  }
+  .buttons{
+    border:solid 1px #f2f2f2;
+    height:34px;
+    width:95px;
+    padding: 0 16px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+  }
+  #r-button{
+    width:111px;
+  }
   
   #navbar{
     display: flex;
