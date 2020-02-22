@@ -45,6 +45,11 @@ body{
     border: solid 1px #e7e8eb;
     border-radius: 25px 25px 25px 25px;
     z-index: -1;
+    background-image: url("https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.png");
+    background-size: 26px;
+    background-position-x: 12px ;
+    background-position-y: 13px;
+    background-repeat: no-repeat;
   }
   #button-container{
     display: flex;
