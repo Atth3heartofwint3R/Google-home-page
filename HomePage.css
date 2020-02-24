@@ -88,10 +88,14 @@ body{
     margin-top: 13px ;
     
   }
-  #spacer{
+  #t-spacer{
     width : 600px;
     background-color: transparent;
   }
+  #b-spacer{
+
+    }
+  
   .nav-items{
     width: 50px ;
     height: 30px;
@@ -138,12 +142,35 @@ body{
   }
   #footer{
     position: absolute;
-    bottom: -13;
+    bottom: -13px;
     display: flex;
     height:40px;
     background-color: #f2f2f2;
     font-size: 13px;
     width:100%;
     border: solid 1px #e4e4e4;
-
+    justify-content: space-between;
+    font-family: arial,sans-serif;
+    color: rgb(95, 99, 104);
+}
+  
+  .footer-items{
+   padding-left: 27px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  #right-foot{
+    justify-content: flex-end;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    height:40px;
+  }
+  #left-foot{
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    height:40px;
   }
